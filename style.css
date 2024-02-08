@@ -1,0 +1,24 @@
+:root {
+    --azul-dnc: #0c7092;
+    --preto-dnc: #303030;
+    --branco-dnc: #efebe4;
+}
+body {
+    background-color: var(--preto-dnc);
+    color: var(--branco-dnc);
+    text-align: center;
+}
+header {
+    color: var(--branco-dnc);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    margin-top: 20px;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+}
+.relogio {
+    margin: 20px 40px;
+}
