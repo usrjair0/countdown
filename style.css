@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --azul-dnc: #0c7092;
     --preto-dnc: #303030;
@@ -18,6 +23,8 @@ header {
 .timer {
     display: flex;
     justify-content: center;
+    height: 90vh;
+    align-items: center;
 }
 .relogio {
     margin: 20px 40px;
